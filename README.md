@@ -20,7 +20,7 @@ go-ftx is a go client library for [FTX API Document](https://docs.ftx.com).
 ## Installation
 
 ```
-$ go get -u github.com/go-numb/go-ftx
+$ go get -u github.com/nazariyv/go-ftx
 ```
 
 ## Usage
@@ -29,10 +29,10 @@ package main
 
 import (
  "fmt"
- "github.com/go-numb/go-ftx/rest"
- "github.com/go-numb/go-ftx/auth"
- "github.com/go-numb/go-ftx/types"
- "github.com/go-numb/go-ftx/private/account"
+ "github.com/nazariyv/go-ftx/rest"
+ "github.com/nazariyv/go-ftx/auth"
+ "github.com/nazariyv/go-ftx/types"
+ "github.com/nazariyv/go-ftx/private/account"
 
  "github.com/labstack/gommon/log"
 )
@@ -142,8 +142,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/go-numb/go-ftx/realtime"
-	"github.com/go-numb/go-ftx/auth"
+	"github.com/nazariyv/go-ftx/realtime"
+	"github.com/nazariyv/go-ftx/auth"
 
 	"github.com/labstack/gommon/log"
 )
@@ -199,4 +199,4 @@ func main() {
 
 ## License
 
-[MIT](https://github.com/go-numb/go-ftx/blob/master/LICENSE)
+[MIT](https://github.com/nazariyv/go-ftx/blob/master/LICENSE)
